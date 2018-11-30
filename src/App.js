@@ -87,7 +87,7 @@ class App extends Component {
                     <br/>
                     <InputGroup size="compact">
                     <Col span={16}>
-                      <DatePicker name="startDateVendor"  placeholder="Start date vendor" onChange={onChange; (event)=>this.changeHandler(event)} />
+                      <DatePicker name="startDateVendor"  placeholder="Start date vendor" onChange={onChange, (event)=>this.changeHandler(event)} />
                     </Col>
                   </InputGroup>
                     <br/>
