@@ -1,0 +1,28 @@
+@import '~antd/dist/antd.css';
+.header{
+  text-align: center;
+}
+.header span{
+  color: white;
+font:  28px bold;
+margin: auto;
+}
+.footer{
+  text-align: center;
+  background-color: #001529;
+  color: white;
+}
+.contentColumn{
+  border: 1px solid #0869D6;
+  border-radius: 5px;
+  padding : 10px;
+  margin: 40px auto;
+  background-color: #F0F2F5;
+}
+.contentLayout{
+  background-color: white;
+}
+.contentTitle{
+  font: 22px bold;
+  text-align: center;
+}
